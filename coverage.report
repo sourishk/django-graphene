@@ -1,0 +1,23 @@
+Name                                               Stmts   Miss  Cover
+----------------------------------------------------------------------
+company/__init__.py                                    0      0   100%
+company/admin.py                                       3      0   100%
+company/apps.py                                        3      0   100%
+company/migrations/0001_initial.py                     5      0   100%
+company/migrations/0002_auto_20210226_1438.py          4      0   100%
+company/migrations/0003_company_employee_size.py       4      0   100%
+company/migrations/0004_auto_20210226_1521.py          4      0   100%
+company/migrations/__init__.py                         0      0   100%
+company/models.py                                      8      1    88%
+company/schema.py                                    104      9    91%
+company/tests.py                                      54      0   100%
+company/urls.py                                        0      0   100%
+company/views.py                                       3      1    67%
+main/__init__.py                                       0      0   100%
+main/asgi.py                                           4      4     0%
+main/settings.py                                      19      0   100%
+main/urls.py                                           6      0   100%
+main/wsgi.py                                           4      4     0%
+manage.py                                             12      2    83%
+----------------------------------------------------------------------
+TOTAL                                                237     21    91%

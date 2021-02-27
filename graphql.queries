@@ -1,0 +1,53 @@
+# mutation {
+#   updateCompany(id:1) {
+#     message
+#     company {
+#       name
+#       id
+#     }
+#   }
+# }
+
+# query {
+#   allCompanies {
+#     id
+#     name
+#     address
+#     ownerInfo
+#     employeeSize
+#   }
+# }
+
+# mutation {
+#   deleteCompany(id:2){
+#     message
+#   }
+# }
+
+# query {
+#   searchByName(name:"Swisscom") {
+#     name
+#     address
+#   }
+# }
+
+# mutation {
+#     addCompany(name:"Flipkart", address:"Bangalore", ownerInfo:"Walmart", employeeSize:1000) {
+#         company {
+#             name
+#             address
+#             ownerInfo
+#             employeeSize
+#         }
+#     }
+# }
+
+# query {
+#   searchByText (text:"Swit"){
+#     id
+#     name
+#     address
+#     employeeSize
+#     ownerInfo
+#   }
+# }
