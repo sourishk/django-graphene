@@ -1,5 +1,11 @@
 # Django GraphQl CRUD operations
 
+Run locally-
+
+```
+
+```
+
 Create a docker image using-
 
 ```
@@ -21,4 +27,19 @@ To run on the local machine, install the dependencies and then start the server.
 ```
 conda env create -f environment.yaml -n myenv
 python manage.py runserver
+```
+
+Deployment on Kubernetes
+
+For local docker image-
+```
+kubectl create deployment --image=docker-django-v0.0 docker-django-v0.0-app
+```
+
+For docker image hosted on dockerhub, using deployment.yaml
+
+https://docs.docker.com/get-started/kube-deploy/
+
+```
+kubectl create -f deployment.yml
 ```
