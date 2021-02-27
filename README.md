@@ -1,11 +1,5 @@
 # Django GraphQl CRUD operations
 
-Run locally-
-
-```
-
-```
-
 Create a docker image using-
 
 ```
