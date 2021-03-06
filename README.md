@@ -10,7 +10,6 @@ Install the dependencies,
 
 ```
 conda env create -f environment.yaml -n myenv
-
 ```
 Run unit tests,
 ```
