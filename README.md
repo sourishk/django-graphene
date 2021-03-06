@@ -16,7 +16,7 @@ Run unit tests,
 python manage.py test company
 ```
 
-Generate coverage report
+Generate coverage report,
 ```
 coverage run --source='.' manage.py test company
 coverage report
