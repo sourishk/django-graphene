@@ -1,3 +1,4 @@
+# Unit tests for the company app.
 import json
 from graphene_django.utils.testing import GraphQLTestCase
 
